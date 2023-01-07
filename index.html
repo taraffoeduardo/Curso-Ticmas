@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Macetas y Mas" />
+<link rel="stylesheet" href="./main.css" type="text/css"> 
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<title>Stephen Git</title>
+</head>
+<body>
+    <header>
+        <nav>
+         <div>
+            <h1>Stephen Git</h1>
+         </div>  
+         <div class="barra-nav">
+            <a href="#titulos">Diplomas
+            <i class='bx bx-book-bookmark'></i></a>
+            <a href="#experiencias">Experiencias<i class='bx bx-hard-hat'></i></a>
+            <a href="#portafolio">Portafolio<i class='bx bx-briefcase'></i></a>
+         </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="descripcion"> 
+        <div>
+            <img class="foto-perfil" src="./assets/fotos-index/34.jpg" alt="foto">
+            
+        </div>
+        <p>Como caracteristicas destacable de mi persona 
+            puedo decir que soy un apasionada por la programacion.
+            Cada dia intento aprender nuevas habilidades que me
+            permitan poder mejorar y desarrollarme como el profesional 
+            que intento ser.
+         </p>
+        <div><ul class="links">
+            <li><a href="https://www.linkedin.com/home"><i class='bx bxl-linkedin-square'></i></a></li>
+            <li><a href="https://github.com/"><i class='bx bxl-github'></i></a></li>
+        </ul> 
+        </div>          
+        </div>
+    </article>
+    </main>
+    
+    <!-- FUNCIONALIDADES CON JAVASCRIPT -->
+    <section class="seccion">
+        <div class="item" id="titulos">
+            <h3><span>Diplomas</span></h3>
+
+         <div class="ful-img" id="fulImgBox">
+            <img src="./assets/fotos-index/photshop.png" id="fulImg" alt="">
+            <span onclick="closeImg()">X</span>
+         </div>   
+         
+         <div class="imagenes">
+            <img  src="./assets/fotos-index/web.jfif"onclick="openFulImg(this.src)" alt="">
+            <img  src="./assets/fotos-index/python.jfif"onclick="openFulImg(this.src)" alt="">
+            <img src="./assets/fotos-index/backend.jfif"onclick="openFulImg(this.src)" alt="">
+         </div>   
+        </div>
+
+
+        <div class="item" id="experiencias">
+           
+            <div class="ful-img" id="fulImgBox">
+                <img src="./assets/fotos-index/photshop.png" id="fulImg" alt="">
+                <span onclick="closeImg()">X</span>
+             </div> 
+
+            <h3><span>Experiencias</span></h3>
+           
+            <div class="experiencia">
+                <img  src="./assets/fotos-index/desarrollador.webp"onclick="openFulImg(this.src)" alt="">
+            
+                
+                <p>
+                    - Desarrollo y mantenimiento de aplicaciones mobile (Android/iOS)<br>
+
+                    - Mantenimiento de módulos de aplicación de gestión de pasajeros.<br>
+                    
+                    - Desarrollo de otros sistemas acorde a las necesidades de las diferentes empresas.<br>
+                </p>
+            </div> 
+        </div>
+
+
+        <div class="item" id="portafolio">
+
+            <div class="ful-img" id="fulImgBox">
+                <img src="./assets/fotos-index/photshop.png" id="fulImg" alt="">
+                <span onclick="closeImg()">X</span>
+             </div>
+
+            <h3><span>Portafolio</span></h3>
+            
+            <div class="imagenes">
+                <img  src="./assets/fotos-index/trabajo1.webp"onclick="openFulImg(this.src)" alt="">
+                <img  src="./assets/fotos-index/trabajo2.webp"onclick="openFulImg(this.src)" alt="">
+                <img src="./assets/fotos-index/trabajo3.jpg"onclick="openFulImg(this.src)" alt="">
+            </div>  
+        </div>
+    </section>
+
+    <footer class="links">
+        
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
